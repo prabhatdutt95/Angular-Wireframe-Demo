@@ -1,0 +1,33 @@
+TypeError: Cannot read property 'toObject' of undefined
+    at C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\routes\routing.js:17:19
+    at Layer.handle [as handle_request] (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:47:12)
+ReferenceError: userId is not defined
+    at new users (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\public\javascripts\user.js:2:19)
+    at Function.users.toObject (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\public\javascripts\user.js:10:12)
+    at C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\routes\routing.js:17:20
+    at Layer.handle [as handle_request] (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:275:10)
+ReferenceError: userId is not defined
+    at new users (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\public\javascripts\user.js:2:19)
+    at Function.users.toObject (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\public\javascripts\user.js:10:12)
+    at C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\routes\routing.js:17:20
+    at Layer.handle [as handle_request] (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\prabh\OneDrive\Desktop\Dummy Project\Backend\registerWS\node_modules\express\lib\router\index.js:275:10)

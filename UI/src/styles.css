@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html,body{
+    overflow-x: hidden;
+    background-image: url('/assets/images/Cover\ page.jpg');
+    background-size: cover;
+}
+.nav-link,.nav-item{
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar-brand{
+    font-size:22px;
+    color: blue;
+    font-weight: 600;
+}
+a:hover{
+    cursor: pointer;
+}

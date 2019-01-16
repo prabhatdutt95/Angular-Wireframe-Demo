@@ -1,0 +1,31 @@
+
+<nav class="navbar  navbar-expand-sm bg-light navbar-light">
+  <a class="navbar-brand" [routerLink]="['/home']">Profile</a>
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item" *ngIf="!loggedIn">
+      <a class="nav-link" [routerLink]="['/register']">Join us</a>
+    </li>
+    <li class="nav-item" *ngIf="loggedIn">
+      <a class="nav-link">Welcome {{userName}}</a>
+    </li>
+    <li class="nav-item" *ngIf="!loggedIn">
+      <a class="nav-link" [routerLink]="['/login']">Login</a>
+    </li>
+    <li class="nav-item" *ngIf="loggedIn">
+      <a class="nav-link" (click)="confirm();">Logout</a>
+    </li>
+  </ul>
+</nav>
+<p-dialog header="Confirm Logout" [(visible)]="showDialog" [modal]="true" [responsive]="true" [style]="{width: '350px', minWidth: '200px'}" [minY]="70" 
+        [maximizable]="true" [baseZIndex]="10000">
+        <h4>Are you sure you want to logout?</h4>
+        <p-footer>
+            <button type="button" icon="pi pi-check" (click)="logout();" >Yes</button>
+            <button type="button" icon="pi pi-close" (click)="showDialog=false" class="ui-button-secondary">No</button>
+        </p-footer>
+</p-dialog>
+<br>
+<div>
+    <router-outlet></router-outlet>
+</div>
