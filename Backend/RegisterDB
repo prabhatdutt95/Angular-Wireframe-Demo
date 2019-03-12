@@ -4,8 +4,8 @@ db.users.drop();
 
 db.createCollection("users");
 
-db.users.insert([{name:"nicky",contact:7540863543,email:"nicky@gmail.com",salary:123.56},
-    {name:"prabhat",contact:7540863544,email:"nicky@gmail.com",salary:123.56}
+db.users.insert([{name:"jack",contact:7540863544,email:"jack@gmail.com",salary:123.56},
+    {name:"prabhat",contact:7540863544,email:"prabhat@gmail.com",salary:123.56}
 ]);
 
 db.users.find().pretty();
